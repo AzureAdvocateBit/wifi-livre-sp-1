@@ -30,7 +30,7 @@ ZoneControllers.controller("ListController", ['$scope', '$http',
 
 ZoneControllers.controller("DetailsController", ['$scope', '$http', '$routeParams',
   function($scope, $http, $routeParams) {
-    $http.get('js/pracas.json').success(function(data) {
+    $http.get('pracas.json').success(function(data) {
       $scope.zoneItem = data;
       $scope.currentZone = $routeParams.zoneID;
     });
