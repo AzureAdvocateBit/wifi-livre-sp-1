@@ -1,4 +1,4 @@
-Ao selecionar o Github, será ne# #AzureSolutionlet - Dados Abertos
+# #AzureSolutionlet - Dados Abertos
 
 ##Wifi Livre em São Paulo
 Encontre redes wifi com acesso gratuito na cidade de São Paulo.
