@@ -35,3 +35,7 @@ Seu projeto estará acessível em: `127.0.0.1:4000`. Você poderá debbugar e de
 Para criar um novo aplicativo web, no menu lateral de seu dashboard no Azure, clique em *New* > *Web + Mobile* > *Web App*. Insira informações como nome (o nome do seu aplicativo irá gerar sua URL pública de acesso ao web app), assinatura e resource group. Você poderá criar um resource group durante a configuração de sua web app ou selecionar um [resource group](https://azure.microsoft.com/pt-br/documentation/articles/resource-group-portal/) já existente.
 
 ![criando-um-aplicativo-web-no-azure-01](https://cloud.githubusercontent.com/assets/2198735/14955729/606ded68-1052-11e6-9ad4-21a9ea3c8c95.PNG)
+
+Em alguns instantes, sua aplicação estará disponível. Com o web app gerado, você poderá acessá-lo pelo link e irá encontrar a seguinte tela:
+![preview-aplicativo-web-no-azure-02](https://cloud.githubusercontent.com/assets/2198735/14955866/306d2a24-1053-11e6-86c8-36ee49fe5e67.PNG)
+
