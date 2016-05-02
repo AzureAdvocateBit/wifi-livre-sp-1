@@ -1,4 +1,4 @@
-# #AzureSolutionlet - Dados Abertos
+Ao selecionar o Github, será ne# #AzureSolutionlet - Dados Abertos
 
 ##Wifi Livre em São Paulo
 Encontre redes wifi com acesso gratuito na cidade de São Paulo.
@@ -49,11 +49,7 @@ No painel lateral, localize a opção **deployment source** e selecione a opçã
 
 ![deploy-github-no-azure](https://cloud.githubusercontent.com/assets/2198735/14960801/cfee3eee-106c-11e6-892d-b6eee4d3db89.PNG)
 
-Ao selecionar o Github, será necessário vincular sua conta com o Azure. Após autorizar a integração das contas (Github + Azure), irá surgir a lista de repositórios que você possui no Github.
-
-![configuracoes-aplicativo-web-no-azure-03](https://cloud.githubusercontent.com/assets/2198735/14961055/1db53294-106e-11e6-85e8-6dc9962202ef.PNG)
-
-Selecione o repositório desejado, defina a branch que será sincronizada com o Azure. CLique no botão **OK** e aguarde alguns instantes.
+Ao selecionar o Github, será necessário vincular sua conta com o Azure. Após autorizar a integração das contas (Github + Azure), irá surgir a lista de repositórios que você possui no Github. Selecione o repositório desejado, defina a branch que será sincronizada com o Azure. CLique no botão **OK** e aguarde alguns instantes.
 
 ![deploy-github-no-azure-02](https://cloud.githubusercontent.com/assets/2198735/14961191/ce68ef4a-106e-11e6-868e-2d0a58a6a8e9.PNG)
 
