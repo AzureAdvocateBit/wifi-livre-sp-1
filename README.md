@@ -57,4 +57,16 @@ Feita a integração para o deploy, o Azure fará o primeiro sync da aplicação
 
 ![deploy-github-no-azure-03](https://cloud.githubusercontent.com/assets/2198735/14961009/f4507044-106d-11e6-8215-a04e2b89c246.PNG)
 
+### Arquivos estáticos
+O *Wifi Livre SP* é um web app estático e utiliza como fonte de dados um arquivo `.json` para renderizar a listagem de locais com acesso Wifi gratuito e livre na cidade. Para que que a aplicação possa consumir os dados, é necessário adicionar um arquivo `web.config` para liberar acesso ao arquivo `pracas.json`.
 
+```xml
+<?xml version="1.0"?>
+<configuration>
+    <system.webServer>
+      <staticContent>
+        <mimeMap fileExtension=".json" mimeType="application/json" />
+     </staticContent>
+    </system.webServer>
+</configuration>
+```
