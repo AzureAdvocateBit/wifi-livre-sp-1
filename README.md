@@ -70,3 +70,7 @@ O *Wifi Livre SP* é um web app estático e utiliza como fonte de dados um arqui
     </system.webServer>
 </configuration>
 ```
+
+Com as configurações iniciais concluídas, sua aplicação já está disponível para uso.
+
+![app-01](https://cloud.githubusercontent.com/assets/2198735/14961802/09d2943e-1072-11e6-9c1c-9f8215e858c2.PNG)
