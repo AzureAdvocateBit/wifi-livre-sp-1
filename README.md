@@ -32,12 +32,33 @@ gulp
 Seu projeto estará acessível em: `127.0.0.1:4000`. Você poderá debbugar e desenvolver novas funcionalidades para este projeto e até criar outras aplicações, baseadas nesta arquitetura.
 
 ### Passo 2: Criando um Aplicativo Web no Azure
-Para criar um novo aplicativo web, no menu lateral de seu dashboard no Azure, clique em *New* > *Web + Mobile* > *Web App*. Insira informações como nome (o nome do seu aplicativo irá gerar sua URL pública de acesso ao web app), assinatura e resource group. Você poderá criar um resource group durante a configuração de sua web app ou selecionar um [resource group](https://azure.microsoft.com/pt-br/documentation/articles/resource-group-portal/) já existente.
+Para criar um novo aplicativo web, no menu lateral de seu dashboard no Azure, clique em **New** > **Web + Mobile** > **Web App**. Insira informações como nome (o nome do seu aplicativo irá gerar sua URL pública de acesso ao web app), assinatura e resource group. Você poderá criar um resource group durante a configuração de sua web app ou selecionar um [resource group](https://azure.microsoft.com/pt-br/documentation/articles/resource-group-portal/) já existente.
 
 ![criando-um-aplicativo-web-no-azure-01](https://cloud.githubusercontent.com/assets/2198735/14955729/606ded68-1052-11e6-9ad4-21a9ea3c8c95.PNG)
 
 Em alguns instantes, sua aplicação estará disponível. Com o web app gerado, você poderá acessá-lo pelo link e irá encontrar a seguinte tela:
+
 ![preview-aplicativo-web-no-azure-02](https://cloud.githubusercontent.com/assets/2198735/14955866/306d2a24-1053-11e6-86c8-36ee49fe5e67.PNG)
 
 ### Passo 3: Integração com Github
-O código-fonte e versionamento do *Wifi Livre SP* está centralizado no Github e para fazer o deploy do projeto no Azure, será necessário configurar uma integração entre o repositório e a aplicação criada na nuvem. Para isso, acessamos os detalhes da aplicação e clicamos no menu *settings*, que abrirá um painel lateral com opções de serviços que podemos utilizar.
+O código-fonte e versionamento do *Wifi Livre SP* está centralizado no Github e para fazer o deploy do projeto no Azure, será necessário configurar uma integração entre o repositório e a aplicação criada na nuvem. Para isso, acessamos os detalhes da aplicação e clicamos no menu **settings**, que abrirá um painel lateral com opções de serviços que podemos utilizar.
+
+![configuracoes-aplicativo-web-no-azure-03](https://cloud.githubusercontent.com/assets/2198735/14960521/6c1c439e-106b-11e6-9c0a-0132f99b02e4.PNG)
+
+No painel lateral, localize a opção **deployment source** e selecione a opção de repositório que sua aplicação está hospedada. Neste caso, utilizaremos o Github.
+
+![deploy-github-no-azure](https://cloud.githubusercontent.com/assets/2198735/14960801/cfee3eee-106c-11e6-892d-b6eee4d3db89.PNG)
+
+Ao selecionar o Github, será necessário vincular sua conta com o Azure. Após autorizar a integração das contas (Github + Azure), irá surgir a lista de repositórios que você possui no Github.
+
+![configuracoes-aplicativo-web-no-azure-03](https://cloud.githubusercontent.com/assets/2198735/14961055/1db53294-106e-11e6-85e8-6dc9962202ef.PNG)
+
+Selecione o repositório desejado, defina a branch que será sincronizada com o Azure. CLique no botão **OK** e aguarde alguns instantes.
+
+![deploy-github-no-azure-02](https://cloud.githubusercontent.com/assets/2198735/14961191/ce68ef4a-106e-11e6-868e-2d0a58a6a8e9.PNG)
+
+Feita a integração para o deploy, o Azure fará o primeiro sync da aplicação. A medida em que o repositório receber atualizações, um novo sync é realizado e você poderá acompanhar o histórico de alterações e qual é a versão que está rodando em sua app.
+
+![deploy-github-no-azure-03](https://cloud.githubusercontent.com/assets/2198735/14961009/f4507044-106d-11e6-8215-a04e2b89c246.PNG)
+
+
