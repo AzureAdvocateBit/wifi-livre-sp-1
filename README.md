@@ -39,3 +39,5 @@ Para criar um novo aplicativo web, no menu lateral de seu dashboard no Azure, cl
 Em alguns instantes, sua aplicação estará disponível. Com o web app gerado, você poderá acessá-lo pelo link e irá encontrar a seguinte tela:
 ![preview-aplicativo-web-no-azure-02](https://cloud.githubusercontent.com/assets/2198735/14955866/306d2a24-1053-11e6-86c8-36ee49fe5e67.PNG)
 
+### Passo 3: Integração com Github
+O código-fonte e versionamento do *Wifi Livre SP* está centralizado no Github e para fazer o deploy do projeto no Azure, será necessário configurar uma integração entre o repositório e a aplicação criada na nuvem. Para isso, acessamos os detalhes da aplicação e clicamos no menu *settings*, que abrirá um painel lateral com opções de serviços que podemos utilizar.
